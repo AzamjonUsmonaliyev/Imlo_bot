@@ -19,6 +19,7 @@ async def send_welcome(message: types.Message):
     await message.reply("Assalamu alaykum! Uzbekcha , Kirilcha Imlo botimizga xush kelibsiz! ")
 
 
+
 @dp.message_handler(commands=['help'])
 async def send_welcome(message: types.Message):
     await message.reply("Assalamu alaykum! Botdan foydalanish uchun so'z yuboring ! ")
